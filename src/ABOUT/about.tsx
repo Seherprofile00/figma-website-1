@@ -6,7 +6,7 @@ export default function About() {
     return (<>
         <div className="project">
             <div className="project-1"><a href="/">
-                <h>Making a design from scratch</h></a>
+                <h2>Making a design from scratch</h2></a>
                 <br></br>
                 <p>12 feb 2020  &nbsp;|  &nbsp; 12 feb 2020  </p>
                 <br></br>
@@ -15,7 +15,7 @@ export default function About() {
 
             </div>
             <div className="project-2">
-                <h>Making a design from scratch</h>
+                <h2>Making a design from scratch</h2>
                 <br></br>
                 <p>12 feb 2020  &nbsp;|  &nbsp; 12 feb 2020  </p>
                 <br></br>

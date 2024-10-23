@@ -7,8 +7,8 @@ export default function Home() {
   return (<>
   <div>
     <div className="hero-1"><section className="hero">
-      <h>HI,<br></br> I AM SEHAR</h><br></br>
-      <h> i m here to presnt a topic overwiew</h>
+      <h2>HI,<br></br> I AM SEHAR</h2><br></br>
+      <h2> i m here to presnt a topic overwiew</h2>
 
 
 

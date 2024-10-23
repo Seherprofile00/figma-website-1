@@ -1,12 +1,12 @@
 body {
-    background-color: rgb(205, 190, 200);
+    background-color: rgb(209, 187, 202);
    
   
 }
 
-/* .hero-1{
-    background-color: rgb(114, 116, 116);
-} */
+ .hero-1{
+    background-color: rgb(212, 189, 214);
+} 
 .nav {
     display: flex;
     font-size: 30px;
@@ -32,11 +32,16 @@ body {
 
 .hero {
 
-    font-size: 42px;
+    font-size: 10px;
 
     padding: 15%;
-    /* color: rgb(58, 56, 56); */
+     }
+
+.h2{
+    font-size: 34px;
 }
+.h3{font-size: 34px;
+margin-top:-30px ;}
 
 .para {
     box-sizing: content-box;
@@ -47,19 +52,19 @@ body {
 
 .buton {
     padding: 2%;
-    /* color: rgb(52, 54, 54); */
+    color: rgb(52, 54, 54);
     background-color: rgb(169, 135, 159);
     font-size: 25px;
 
 }
 
 .my-girl {
-    border-radius: 85%;
+    border-radius: 95%;
     overflow: hidden;
 
-    border-color: aqua;
+   
     margin-top: -55%;
-    margin-left: 59%;
+    
 }
 
 
@@ -83,7 +88,7 @@ body {
     background-color: aliceblue;
     width: 27%;
     font-size: 22px;
-    margin-top: -26.9%;
+    margin-top: -29.9%;
     margin-left: 58%;
 
     padding: 3%;
@@ -96,10 +101,10 @@ body {
     padding: 3%;
     background-color: rgb(180, 137, 185);
 
-}
+} 
 
 
-@media (max-width:550px) {
+@media  (max-width:550px) {
     .my-girl {
         margin-top: 0%;
     }
@@ -169,3 +174,152 @@ body {
         font-size: 25px;
     
     }
+
+
+
+    .project {
+        box-sizing: content-box;
+        font-size: 13px;
+        justify-content: block;
+        padding: 3%;
+        background-color: rgb(180, 137, 185);
+        margin-top: 90%;
+        width: 100%;
+
+      
+    
+    }
+    
+.project-1 {
+
+    background-color: aliceblue;
+    width: 79%;
+    font-size: 22px;
+    margin-top: 20%;
+    margin-right: 39%;
+    margin-left: 6%;
+    text-decoration: none;
+    color: darkgreen;
+    padding: 3%;
+    height: 30%;
+
+
+}
+
+.project-2 {
+
+    background-color: aliceblue;
+    width: 59%;
+    font-size: 22px;
+    margin-top: 13%;
+    margin-right: 39%;
+    margin-left: 6%;
+    width: 79%;
+    padding: 3%;
+    height: 30%;
+}
+
+  
+
+}
+
+ @media (min-width:1200px) {
+    .nav {
+        display: flex;
+        font-size: 30px;
+        justify-content: end;
+        padding: 2%;
+        width: 83%;
+    
+    
+    
+    
+    }
+    
+    .nav-items a {
+    
+        position: relative;
+    
+        text-decoration: none;
+        color: black;
+        margin-left: 12%;
+    
+    
+    }
+    
+    .hero {
+    
+        font-size: 10px;
+    height:700px;
+        padding: 15%;
+        color: rgb(58, 56, 56);}
+   
+    .h2{
+        font-size: 34px;
+    }
+    .h3{font-size: 34px;
+    margin-top:-30px ;}
+    
+    .para {
+        box-sizing: content-box;
+        font-size: 25px;
+        height: 26%;
+        width: 58%;
+    }
+    
+    .buton {
+        padding: 2%;
+        color: rgb(52, 54, 54); 
+        background-color: rgb(169, 135, 159);
+        font-size: 25px;
+    
+    }
+    
+    .my-girl {
+        border-radius:85%;
+        overflow: hidden;
+    height:450px;
+    width:390px;
+        border-color: aqua;
+        margin-top: -75%;
+        margin-left: 59%;
+        margin-bottom: 20%;
+    }
+    
+    
+    
+    .project-1 {
+    
+        background-color: aliceblue;
+        width: 27%;
+        font-size: 22px;
+        margin-top: 9%;
+        margin-left: 12%;
+        text-decoration: none;
+        color: darkgreen;
+        padding: 3%;
+    
+    
+    }
+    
+    .project-2 {
+    
+        background-color: aliceblue;
+        width: 27%;
+        font-size: 22px;
+        margin-top: -51.1%;
+        margin-bottom: 37px;
+        margin-left: 58%;
+    
+        padding: 3%;
+    }
+    
+    .project {
+        box-sizing: content-box;
+        font-size: 22px;
+        justify-content: inline-block;
+        padding: 3%;
+        background-color: rgb(180, 137, 185);
+    
+    }
+} 

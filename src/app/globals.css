@@ -125,9 +125,9 @@ body {
        
     }
     .hero {
-
-        font-size: 46px;;
-    font-weight: 900px; ;
+        font-size: 29px;
+        
+    font-weight: 300px; 
         padding: 8%;
        
         
@@ -135,23 +135,32 @@ body {
         
         
     }
+    .h2{
+        font-size: 29px;
+    }
+    .h3{
+        font-size: 29px;
+        margin-top: -18%;
+    }
+   
     .para {
         box-sizing: content-box;
         font-size: 40px;
         height: 66%;
         width: 58%;
-        margin-top: 99%;
+        margin-top: 109%;
         font-size: 20px;
     }
     .my-girl {
-        border-radius: 75%;
+        border-radius: 85%;
        
     height: 350px;
     min-width: 240px;
+   
         
-        margin-top: -155%;
-        margin-left: 8%;
-        margin-right: 15%;
+        margin-top: -175%;
+        margin-left: 0%;
+        margin-right: 0%;
     }
     .buton {
         padding: 2%;
@@ -160,65 +169,3 @@ body {
         font-size: 25px;
     
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .project {
-        box-sizing: content-box;
-        font-size: 13px;
-        justify-content: block;
-        padding: 3%;
-        background-color: rgb(180, 137, 185);
-        margin-top: 90%;
-    
-    }
-    
-.project-1 {
-
-    background-color: aliceblue;
-    width: 59%;
-    font-size: 22px;
-    margin-top: 20%;
-    margin-left: 12%;
-    text-decoration: none;
-    color: darkgreen;
-    padding: 3%;
-
-
-}
-
-.project-2 {
-
-    background-color: aliceblue;
-    width: 59%;
-    font-size: 22px;
-    margin-top: 13%;
-    margin-left: 12%;
-
-    padding: 3%;
-}
-
-  
-
-}

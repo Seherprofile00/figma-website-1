@@ -1,0 +1,224 @@
+body {
+    background-color: rgb(205, 190, 200);
+   
+  
+}
+
+/* .hero-1{
+    background-color: rgb(114, 116, 116);
+} */
+.nav {
+    display: flex;
+    font-size: 30px;
+    justify-content: end;
+    padding: 2%;
+    width: 83%;
+
+
+
+
+}
+
+.nav-items a {
+
+    position: relative;
+
+    text-decoration: none;
+    color: black;
+    margin-left: 12%;
+
+
+}
+
+.hero {
+
+    font-size: 42px;
+
+    padding: 15%;
+    /* color: rgb(58, 56, 56); */
+}
+
+.para {
+    box-sizing: content-box;
+    font-size: 25px;
+    height: 26%;
+    width: 58%;
+}
+
+.buton {
+    padding: 2%;
+    /* color: rgb(52, 54, 54); */
+    background-color: rgb(169, 135, 159);
+    font-size: 25px;
+
+}
+
+.my-girl {
+    border-radius: 85%;
+    overflow: hidden;
+
+    border-color: aqua;
+    margin-top: -55%;
+    margin-left: 59%;
+}
+
+
+
+.project-1 {
+
+    background-color: aliceblue;
+    width: 27%;
+    font-size: 22px;
+    margin-top: 9%;
+    margin-left: 12%;
+    text-decoration: none;
+    color: darkgreen;
+    padding: 3%;
+
+
+}
+
+.project-2 {
+
+    background-color: aliceblue;
+    width: 27%;
+    font-size: 22px;
+    margin-top: -26.9%;
+    margin-left: 58%;
+
+    padding: 3%;
+}
+
+.project {
+    box-sizing: content-box;
+    font-size: 22px;
+    justify-content: inline-block;
+    padding: 3%;
+    background-color: rgb(180, 137, 185);
+
+}
+
+
+@media (max-width:550px) {
+    .my-girl {
+        margin-top: 0%;
+    }
+    .nav {
+        display: relative;
+        font-size: 19px;
+        
+        padding: 3%;
+        width: 50%;
+   
+    
+    
+    
+    }
+
+
+    .nav-items a {
+        color: black;
+        margin-left: 30%;
+        
+       
+        
+       
+    }
+    .hero {
+
+        font-size: 46px;;
+    font-weight: 900px; ;
+        padding: 8%;
+       
+        
+        position: relative;
+        
+        
+    }
+    .para {
+        box-sizing: content-box;
+        font-size: 40px;
+        height: 66%;
+        width: 58%;
+        margin-top: 99%;
+        font-size: 20px;
+    }
+    .my-girl {
+        border-radius: 75%;
+       
+    height: 350px;
+    min-width: 240px;
+        
+        margin-top: -155%;
+        margin-left: 8%;
+        margin-right: 15%;
+    }
+    .buton {
+        padding: 2%;
+        /* color: rgb(52, 54, 54); */
+        background-color: rgb(169, 135, 159);
+        font-size: 25px;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .project {
+        box-sizing: content-box;
+        font-size: 13px;
+        justify-content: block;
+        padding: 3%;
+        background-color: rgb(180, 137, 185);
+        margin-top: 90%;
+    
+    }
+    
+.project-1 {
+
+    background-color: aliceblue;
+    width: 59%;
+    font-size: 22px;
+    margin-top: 20%;
+    margin-left: 12%;
+    text-decoration: none;
+    color: darkgreen;
+    padding: 3%;
+
+
+}
+
+.project-2 {
+
+    background-color: aliceblue;
+    width: 59%;
+    font-size: 22px;
+    margin-top: 13%;
+    margin-left: 12%;
+
+    padding: 3%;
+}
+
+  
+
+}
